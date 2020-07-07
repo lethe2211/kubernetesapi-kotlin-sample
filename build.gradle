@@ -18,6 +18,9 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
+
+    // Kubernetes client
+    implementation "io.kubernetes:client-java:8.0.2"
 }
 
 application {
